@@ -34,7 +34,7 @@ describe("Climbing The Leaderboard:", () => {
     });
   });
 
-  fdescribe("sample input 1", () => {
+  describe("sample input 1", () => {
     it("should rank her based on her scoring", () => {
       const scores = [100, 100, 50, 40, 40, 20, 10];
       const alice = [5, 25, 50, 120];
@@ -46,7 +46,7 @@ describe("Climbing The Leaderboard:", () => {
     });
   });
 
-  fdescribe("sample input 2", () => {
+  describe("sample input 2", () => {
     it("should rank her based on her scoring", () => {
       const scores = [100, 90, 90, 80, 75, 60];
       const alice = [50, 65, 77, 90, 102];

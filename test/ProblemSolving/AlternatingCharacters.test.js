@@ -1,6 +1,6 @@
 import {alternatingCharacters} from "app/ProblemSolving/AlternatingCharacters";
 
-fdescribe("alternating characters", () => {
+describe("alternating characters", () => {
   ["A",
    "AB"
   ].map((subject) => {
